@@ -42,10 +42,10 @@ int main()
     
     ordenacao(vet, p, r);
     
-    cout << "(";
+    cout << "[";
     for(int i=0; i<= r; i++){
         if(i == r){
-            cout << vet[i] << ")";
+            cout << vet[i] << "]";
         }else{
             cout << vet[i] << ", ";
         }
